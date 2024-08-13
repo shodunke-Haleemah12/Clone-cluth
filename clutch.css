@@ -1,0 +1,579 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.in{
+    width: 160px;
+    height: 25px;
+    padding: 8px 10px;
+    /* border: 1px solid #fff; */
+    border-radius: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    position: relative;
+    background-color: #17313b;
+}
+.icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 635px;
+    top: 10px;
+}
+.list{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+.book{
+    width: 22px;
+    height: 22px;
+}
+.msg{
+    width: 25px;
+    height: 25px;
+}
+.sign-in img{
+    width: 22px;
+    height: 22px;
+}
+.sign-in p{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+.nav-header{
+    background-color: #17313b;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 28px;
+    justify-content: right;
+    padding: 6px 100px 6px 0px;
+
+    /* padding: 6px 105px 6px 752px; */
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: Roboto, sans-serif;;
+    font-size: 14px;
+    background-color: #17313b;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: #17313b;
+}
+.order li{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.get{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b7499;
+}
+.get:hover:after{
+    content: '';
+    position: absolute;
+    background: #000;
+    height: 4px;
+    width: 60px;
+    top: 20px;
+    bottom: -0px;
+    /* right: 70px; */
+    left: 450;
+
+}
+.svg{
+    width: 120px;
+}
+.order{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 105px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+}
+.btn-1{
+    width: 40px;
+    height: 25px;
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.btn-2{
+    width: 130px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: #6dcda9;
+    color: #17313b;
+    padding: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    border-radius: 30px; 
+}
+.p-button p{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #17313b;
+}
+.p-button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.green{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: #6dcda9;
+    z-index: 999999;
+    position: sticky;
+    top: 0;
+}
+.tm{
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 50% 100%, 0% 60%, 10% 20%);
+    width: 300px;
+    position: absolute;
+    /* bottom: 480px; */
+    top: -80px;
+    right: 370px;
+    /* overflow: hidden; */
+    /* z-index: -999; */
+}
+.hero-section{
+    position: relative;
+    background-image: linear-gradient(#ffffffe2,#ffffffe2), url(./img/svg_\ \(12\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: right;
+    background-position: 210% center; /* Shifts the image to the right */
+    background-size: 80%; 
+    overflow: hidden;
+}
+.position h1{
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    color: #17313b;
+    width: 700px;
+}
+.position p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #17313b;
+    width: 740px;
+}
+.input{
+    width: 320px;
+    height: 55px;
+    padding: 8px 50px;
+    /* border: 1px solid #fff; */
+    border-radius: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    position: relative;
+    background-color: #fff;
+    /* padding: ; */
+    
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 128px;
+    top: 418px;
+}
+.loc{
+    width: 25px;
+    height: 25px;
+}
+.btn-3 span{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #4a5255;
+}
+.btn-3{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    height: 55px;
+    border: 2px solid #4a5255;
+    border-radius: 30px;
+}
+.btn-4{
+    width: 140px;
+    height: 55px;
+    border: none;
+    border-radius: 7px;
+    background-color: #e62415;
+    padding: 8px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.btn-div{
+    display: flex;
+    gap: 12px;
+}
+.hire{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.work-team{
+    width: 450px;
+    height: 500px;
+    clip-path: polygon(50% 6%, 97% 32%, 97% 77%, 51% 98%, 3% 77%, 3% 31%);
+}
+.div-hero{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 80px 0px 115px;
+
+    
+}
+.meet-text span{
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    color: #4a5255;
+    font-weight: bold;
+}
+.meet-text img{
+    width: 200px;
+}
+.meet-text{
+    display: flex;
+    flex-direction: column;
+}
+.meet-div button{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    width: 130px;
+    height: 45px;
+    border: 2px solid #1b7499;
+    border-radius: 8px;
+}
+.paragraph h1{
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #17313b;
+}
+.paragraph p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #4a5255;
+}
+.paragraph span{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #1b7499;
+
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.meet-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  gap: 95px;
+    padding: 32px 115px;
+    background-color: #e4efff;
+
+}
+.perfect h1{
+    font-family: Roboto, sans-serif;
+    font-size: 36px; 
+    color: #17313b;
+}
+.perfect p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px; 
+    color: #4a5255;
+}
+.perfect{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 48px 115px 36px 115px;
+}
+.dev img{
+    width: 40px;
+}
+.dev h1{
+    font-family: Roboto, sans-serif;
+    font-size: 22px; 
+    color: black;
+}
+.p-list a{
+    font-family: Roboto, sans-serif;
+    font-size: 16px; 
+    color: #1b7499;
+    text-decoration: none;
+}
+.p-list{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 12px;
+    padding-left: 75px;
+}
+.dev{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 4px 0px;
+    border-radius: 8px;
+    width: 400px;
+    padding: 24px 27px;
+    background-color: #fff;
+}
+.develop{
+    display: flex;
+    gap: 20px;
+    padding: 36px 115px 20px 115px;
+    background-color: #f5f3f3;
+}
+.develop-1{
+    display: flex;
+    gap: 20px;
+    padding: 20px 115px 96px 115px;
+    background-color: #f5f3f3;
+}
+.your h1{
+    font-family: Roboto, sans-serif;
+    font-size: 30px; 
+    color: #17313b;
+}
+.your p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color: #17313b;
+}
+.your{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.search-div span{
+    font-family: Roboto, sans-serif;
+    font-size: 18px; 
+    color: #6dcda9;
+    font-weight: bold;
+}
+.search-div h1{
+    font-family: Roboto, sans-serif;
+    font-size: 26px; 
+    width: 350px;
+    color: white;
+}
+.search-div p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px; 
+    width: 360px;
+    color: white;
+}
+.search-div{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.data img{
+    width: 370px;
+}
+.find{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #17313b;
+    align-items: center;
+    gap: 34px;
+    border-radius: 10px;
+    padding: 25px 24px 0px 24px;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    padding: 65px 115px 37px 115px;
+}
+.boxes-div{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 0px 0px;
+    background-color: #6dcda9;
+    height: 600px;
+}
+.all{
+    padding: 0px 0px 150px 0px;
+}
+.join h1{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    width: 800px;
+    text-align: center;
+    color: #17313b;
+}
+.join p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #4a5255;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+}
+.ibm{
+    width: 60px;
+}
+.ebay{
+    width: 80px;
+}
+.delta{
+    width: 80px;
+}
+.mas{
+    width: 80px;
+}
+.com{
+    width: 80px;
+}
+.fresh{
+    width: 80px;
+}
+.company-div{
+    display: flex;
+    gap: 90px;
+    padding: 40px 180px 40px 180px;
+}
+.line-div img{
+    width: 50px;
+    height: 50px;
+}
+.line-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0px 40px 0px;
+    justify-content: center;
+}
+.clu p{
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a5255;
+    width: 850px;
+}
+.div-six{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 280px 0px 280px;
+    /* justify-content: center; */
+}
+.six{
+    width: 150px;
+}
+.div-six{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 300px 105px 300px;
+    /* padding: 10px 0px 70px 0px; */
+}
+.stars img{
+    width: 200px;
+}
+.stars h1{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    color: #17313b;
+    width: 500px;
+}
+.stars p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #4a5255;
+    width: 580px;
+}
+.link-b{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #17313b;
+    color: #17313b;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hand img{
+    clip-path: polygon(15% 24%, 44% 0, 72% 21%, 73% 74%, 45% 100%, 16% 75%);
+    width: 700px;
+    height: 500px;
+
+}
+.div-stars{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: -90px;
+    background-color: #f5f3f3;
+    padding: 56px 80px 56px 80px;
+    overflow: hidden;
+    position: relative;
+}
+.image-svg{
+    position: absolute;
+    width: 550px;
+    left: 600px;
+    top: 2px;
+    
+}

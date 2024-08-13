@@ -1,0 +1,350 @@
+@font-face{
+    font-family: "net";
+    src: url(./NetflixSans-Regular.otf);
+}
+@font-face{
+    font-family: "netflix";
+    src: url(./NetflixSans-Medium.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 200px;
+}
+.sign button{
+    font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 90px;
+    height: 35px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.netflix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px 0px 150px;
+}
+.unlimited h1{
+    font-family: "netflix";
+    font-size: 48px;
+    color: white;
+}
+.unlimited p{
+    font-family: "net";
+    font-size: 24px;
+    color: white;
+}
+.unlimited{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.pp{
+    font-family: "net";
+    font-size: 20px;
+    color: white;
+}
+.in{
+    width: 350px;
+    height: 70px;
+    font-family: "netflix";
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.934);
+    border: 0.5px solid rgba(255, 255, 255, 0.788);
+    border-radius: 5px;
+    padding: 10px 0px 10px 20px;
+    background-color: #000;
+}
+.div-button button{
+    width: 230px;
+    height: 70px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "netflix";
+    font-size: 26px;
+}
+.icon{
+    width: 25px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 23px;
+}
+.div-input{
+    display: flex;
+    gap: 8px;
+}
+.div-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.watch-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 214px 170px 184px 170px;
+}
+.netflix-div{
+    background-image: linear-gradient(#00000060,#0000008c) ,url(./img/movies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.hero-text h1{
+    font-family: "netflix";
+    font-size: 48px;
+}
+.hero-text p{
+    font-family: "net";
+    font-size: 28px;
+    width: 550px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+.hero-section{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 72px 150px 130px 150px;
+    gap: 12px;
+    background-color: #000;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.tv{
+    position: relative;
+}
+.video{
+    position: absolute;
+    right: 90px;
+    top: 100px;
+}
+.video iframe{
+    width: 465px;
+    height: 260px;
+}
+.download-text h1{
+    font-family: "netflix";
+    font-size: 48px;
+    width: 450px;
+}
+.download-text p{
+    font-family: "netflix";
+    font-size: 24px;
+    width: 500px;
+}
+.download-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.mobile{
+    width: 550px;
+}
+.download-div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 70px 150px 76px 150px;
+    position: relative;
+    background-color: #000;
+    color: white;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.strange h1{
+    font-family: "net";
+    font-size: 16px;
+}
+.strange p{
+    font-family: "net";
+    font-size: 14px;
+    color: #0071eb;
+}
+.strange{
+    display: flex;
+    flex-direction: column;
+}
+.st{
+    width: 60px;
+}
+.load{
+    width: 50px;
+}
+.stranger-div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 32px 0px;
+border-radius: 12px;
+background-color: #000;
+border: 2px solid rgb(79, 78, 78);
+width: 300px;
+color: white;
+padding: 10px 14px 14px 14px;
+position: absolute;
+top: 1630px;
+left: 275px;
+}
+.stream h1{
+    font-family: "netflix";
+    font-size: 48px;
+}
+.stream p{
+    font-family: "netflix";
+    font-size: 24px;
+    width: 410px;
+}
+.stream{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    padding: 70px 0px 96px 204px;
+    color: white;
+    background-color: #000;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.kids-div img{
+    width: 500px;
+}
+.kids-text h1{
+    font-family: "netflix";
+    font-size: 48px;
+    width: 500px;
+}
+.kids-text p{
+    font-family: "net";
+    font-size: 24px;
+    width: 500px;
+}
+.kids-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+.kids-div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 72px 165px 76px 165px;
+    background-color: #000;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.accord h1{
+    font-family: "netflix";
+    font-size: 48px;
+}
+.flex h1{
+    font-family: "net";
+    font-size: 24px;
+    padding: 27px 688px 27px 24px;
+}
+.flex img{
+    width: 50px;
+    height: 50px;
+    /* padding-right: 20px; */
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    height: 80px;
+   
+}
+.flex-p{
+    display: flex;
+    flex-direction: column;
+    font-family: "net";
+    font-size: 24px;
+    gap: 30px;
+ 
+    background-color: #2d2d2d;
+}
+.flex-p p{
+    padding: 27px 0px 27px 24px;
+    width: 920px;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+}
+.accord-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.accord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 74px 153px 74px 153px;
+    background-color: #000;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
+.listed a{
+    font-family: "net";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.751);
+}
+.aa{
+    font-family: "net";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.751);
+}
+.listed{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.div-footer{
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    width: 100px;
+    height: 30px;
+    font-family: "netflix";
+    font-size: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.751);
+    background-color: #000;
+    color: white;
+}
+.footer p{
+    font-family: "net";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.751);
+}
+.footer{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 64px 170px 72px 170px;
+}
